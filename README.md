@@ -32,13 +32,23 @@ Linux distributions
 
 -----------------------------------
 Shell(terminal)
+
 1. terminfo database
 2. Xterm terminal
 3. Konsole terminal
 4. GNOME terminal
+
 -----------------------------------
+Bash shell command
+1. Shell user ID configuration
+    /etc/passwd     :rich:x:501:501:Rich Blum:/home/rich:/home/bash
+    data stagement: user name: password: user system ID code: user system group ID code: user default home directory: user default shell application
 
-
+-----------------------------------
+-c string :Read and deal the command from string
+-r
+-i
+-s
 
 
 
