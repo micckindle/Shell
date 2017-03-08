@@ -50,6 +50,52 @@ Bash shell command
 -i
 -s
 
+------------------------------------
+File System
+/ /bin /boot /dev /etc /home /lib /media /mnt /opt /root /sbin /tmp /usr /var
+
+Browse the Directory
+$ cd destination
+$ cd /usr/lib/apache（*absolute file path）
+$ cd ../Desktop (*relative file path)
+$ cd ../../etc
+$ cd ./
+
+LIST OF FIELS AND DIRECTORIES
+$ ls
+
+CREATE FIEL
+$ touch test1
+
+COPY FILE
+$ cp test1 test2
+
+RENAME FILE
+$ mv test2 test6
+
+DELETE FILE
+$ rm test2
+
+CREATE DIRECTORY
+$ mkdir dir3
+
+REMOVE DIRECTORY
+$ rmdir dir3
+
+VIEW FILE STATISTICS
+$ stat test10
+
+VIEW FILE TYPE
+$ file test1
+
+VIEW THE ENTIRE FIEL
+$ cat test1
+$ more test1(advantage)
+$ less test1(more advantage)
+
+VIEW SOME OF THE FILE
+$ tail 
+$ head
 
 
 
