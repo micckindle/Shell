@@ -97,5 +97,78 @@ VIEW SOME OF THE FILE
 $ tail 
 $ head
 
+VIEW PROCESS
+$ ps
+
+STOP PROCESS
+$ kill PID
+$ killall
+
+MOUNT MEDIA
+$ mount
+$ unmount
+
+VIEW DISK SPACE
+$ df
+
+VIEW FILE SIZE ON DISK
+$ du
+
+SORT DATA
+$ sort
+
+SEARCH DATA
+$ grep three file1
+
+COMPRESSED DATA
+$ bzip2 myprog
+$ gzip myprog
+$ zip -r testzip test
+
+ARCHIVE DATA
+$ tar -cvf test.tar test/ test2/
+
+GLOBAL ENVIRONMENT VARIABLES
+$ printenv
+
+ALL ENVIRONMENT VARIABLES
+$ set
+
+SET ENVIRONMENT VARIABLES
+$ test=testing
+$ echo $test
+
+SET GLOBAL ENVIRONMENT VARIABLES
+$ echo $test
+$ ecport test
+
+REMOVE ENVIRONMENT VARIABLES
+$ echo $test
+$ unset test
+
+DEFAULT ENVIRONMENT VARIABLES
+*CDPATH
+*HOME
+*IFS
+*MAIL
+*MAILPATH
+*OPTARG
+*OPTIND
+*PTAH
+*PS1
+*PS2
+------------------
+BASH SHELL ENVIRONMENT VARIABLES
+-----------------
+LOGIN SHELL
+*/etc/profile;
+*$HOME/.bash_profile;
+*$HOME/.bash_login;
+*$HOME/.profile;
+
+VARIABLES GROUP
+$ mytest=(one two three four five)
+
+
 
 
