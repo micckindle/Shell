@@ -52,7 +52,21 @@ Bash shell command
 
 ------------------------------------
 File System
-/ /bin /boot /dev /etc /home /lib /media /mnt /opt /root /sbin /tmp /usr /var
+/:The root of the virtual directory
+/bin: Storing lots of GNU user-level utilities
+/boot: Boot directory
+/dev: Equipment directory 
+/etc: System configuration file directory 
+/home: Home directory, create user directory in this directory 
+/lib: library directory, store system and application library file in here 
+/media: Media directory
+/mnt: Mount directory
+/opt: Store optional package directory
+/root: Administrator home directory
+/sbin: GNU management-level directory
+/tmp: temporary directory
+/usr: User install application directory
+/var: variable directory
 
 Browse the Directory
 $ cd destination
