@@ -37,7 +37,7 @@
 13. dyne:bolie
 14. Puppy Linux
 
-
+-------------------------------------
 ### Shell(terminal)
 
 - terminfo database
@@ -45,7 +45,7 @@
 - Konsole terminal
 - GNOME terminal
 
-
+-------------------------------------
 ### Bash shell command
 ```
 1. Shell user ID configuration
@@ -58,7 +58,7 @@
 -i
 -s
 ```
-
+-------------------------------------
 ### File System
 ```
 /:The root of the virtual directory
@@ -77,7 +77,7 @@
 /usr: User install application directory
 /var: variable directory
 ```
-
+-------------------------------------
 ### Browse the Directory
 ```
 $ cd destination
