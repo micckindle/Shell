@@ -1,20 +1,27 @@
 # Shell
-Getting start with Linux Shell 
-Linux kernel
-1. System memory management
-2. Software program management
-3. Hardware management
-4. File system management
 
-----------------------------------
-Linux desktop environment
-1. X windows system
-2. KDE desktop
-3. GNOME desktop
-4. other: fluxbox, xfree, fvwm, fvwm95
+## Getting start with Linux Shell 
 
------------------------------------
-Linux distributions
+### Linux kernel
+
+```
+- System memory management
+- Software program management
+- Hardware management
+- File system management
+```
+-------------------------------------
+### Linux desktop environment
+```
+- X windows system
+- KDE desktop
+- GNOME desktop
+- other: fluxbox, xfree, fvwm, fvwm95
+```
+
+-------------------------------------
+### Linux distributions
+```
 1. Slackware
 2. Red Hat
 3. Fedora
@@ -29,29 +36,31 @@ Linux distributions
 12. PCLinuxOS
 13. dyne:bolie
 14. Puppy Linux
+```
 
------------------------------------
-Shell(terminal)
-
+### Shell(terminal)
+```
 1. terminfo database
 2. Xterm terminal
 3. Konsole terminal
 4. GNOME terminal
+```
 
------------------------------------
-Bash shell command
+### Bash shell command
+```
 1. Shell user ID configuration
     /etc/passwd     :rich:x:501:501:Rich Blum:/home/rich:/home/bash
     data stagement: user name: password: user system ID code: user system group ID code: user default home directory: user default shell application
 
------------------------------------
+
 -c string :Read and deal the command from string
 -r
 -i
 -s
+```
 
-------------------------------------
-File System
+### File System
+```
 /:The root of the virtual directory
 /bin: Storing lots of GNU user-level utilities
 /boot: Boot directory
@@ -67,100 +76,154 @@ File System
 /tmp: temporary directory
 /usr: User install application directory
 /var: variable directory
+```
 
-Browse the Directory
+### Browse the Directory
+```
 $ cd destination
 $ cd /usr/lib/apache（*absolute file path）
 $ cd ../Desktop (*relative file path)
 $ cd ../../etc
 $ cd ./
+```
 
-LIST OF FIELS AND DIRECTORIES
+### LIST OF FIELS AND DIRECTORIES
+```
 $ ls
+```
 
-CREATE FIEL
+### CREATE FIEL
+```
 $ touch test1
+```
 
-COPY FILE
+### COPY FILE
+```
 $ cp test1 test2
+```
 
-RENAME FILE
+### RENAME FILE
+```
 $ mv test2 test6
+```
 
-DELETE FILE
+### DELETE FILE
+```
 $ rm test2
+```
 
-CREATE DIRECTORY
+### CREATE DIRECTORY
+```
 $ mkdir dir3
+```
 
-REMOVE DIRECTORY
+### REMOVE DIRECTORY
+```
 $ rmdir dir3
+```
 
-VIEW FILE STATISTICS
+### VIEW FILE STATISTICS
+```
 $ stat test10
+```
 
-VIEW FILE TYPE
+### VIEW FILE TYPE
+```
 $ file test1
+```
 
-VIEW THE ENTIRE FIEL
+### VIEW THE ENTIRE FIEL
+```
 $ cat test1
 $ more test1(advantage)
 $ less test1(more advantage)
+```
 
-VIEW SOME OF THE FILE
+### VIEW SOME OF THE FILE
+```
 $ tail 
 $ head
+```
 
-VIEW PROCESS
+### VIEW PROCESS
+```
 $ ps
+```
 
-STOP PROCESS
+### STOP PROCESS
+```
 $ kill PID
 $ killall
+```
 
-MOUNT MEDIA
+### MOUNT MEDIA
+```
 $ mount
 $ unmount
+```
 
-VIEW DISK SPACE
+### VIEW DISK SPACE
+```
 $ df
+```
 
-VIEW FILE SIZE ON DISK
+### VIEW FILE SIZE ON DISK
+```
 $ du
+```
 
-SORT DATA
+### SORT DATA
+```
 $ sort
+```
 
-SEARCH DATA
+### SEARCH DATA
+```
 $ grep three file1
+```
 
-COMPRESSED DATA
+### COMPRESSED DATA
+```
 $ bzip2 myprog
 $ gzip myprog
 $ zip -r testzip test
+```
 
-ARCHIVE DATA
+### ARCHIVE DATA
+```
 $ tar -cvf test.tar test/ test2/
+```
 
-GLOBAL ENVIRONMENT VARIABLES
+### GLOBAL ENVIRONMENT VARIABLES
+```
 $ printenv
+```
 
-ALL ENVIRONMENT VARIABLES
+### ALL ENVIRONMENT VARIABLES
+```
 $ set
+```
 
-SET ENVIRONMENT VARIABLES
+### SET ENVIRONMENT VARIABLES
+```
 $ test=testing
 $ echo $test
+```
 
-SET GLOBAL ENVIRONMENT VARIABLES
+### SET GLOBAL ENVIRONMENT VARIABLES
+```
 $ echo $test
 $ ecport test
+```
 
-REMOVE ENVIRONMENT VARIABLES
+### REMOVE ENVIRONMENT VARIABLES
+```
 $ echo $test
 $ unset test
+```
 
-DEFAULT ENVIRONMENT VARIABLES
+### DEFAULT ENVIRONMENT VARIABLES
+```
 *CDPATH
 *HOME
 *IFS
@@ -171,17 +234,22 @@ DEFAULT ENVIRONMENT VARIABLES
 *PTAH
 *PS1
 *PS2
-------------------
-BASH SHELL ENVIRONMENT VARIABLES
------------------
-LOGIN SHELL
+```
+
+### BASH SHELL ENVIRONMENT VARIABLES
+
+### LOGIN SHELL
+```
 */etc/profile;
 *$HOME/.bash_profile;
 *$HOME/.bash_login;
 *$HOME/.profile;
+```
 
-VARIABLES GROUP
+### VARIABLES GROUP
+```
 $ mytest=(one two three four five)
+```
 
 
 
