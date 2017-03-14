@@ -47,7 +47,7 @@
 
 -------------------------------------
 ### Bash shell command
-```
+```sh
 1. Shell user ID configuration
     /etc/passwd     :rich:x:501:501:Rich Blum:/home/rich:/home/bash
     data stagement: user name: password: user system ID code: user system group ID code: user default home directory: user default shell application
@@ -79,7 +79,7 @@
 ```
 -------------------------------------
 ### Browse the Directory
-```
+```sh
 $ cd destination
 $ cd /usr/lib/apache（*absolute file path）
 $ cd ../Desktop (*relative file path)
@@ -88,27 +88,27 @@ $ cd ./
 ```
 
 ### LIST OF FIELS AND DIRECTORIES
-```
+```sh
 $ ls
 ```
 
 ### CREATE FIEL
-```
+```sh
 $ touch test1
 ```
 
 ### COPY FILE
-```
+```sh
 $ cp test1 test2
 ```
 
 ### RENAME FILE
-```
+```sh
 $ mv test2 test6
 ```
 
 ### DELETE FILE
-```
+```sh
 $ rm test2
 ```
 
@@ -118,112 +118,112 @@ $ mkdir dir3
 ```
 
 ### REMOVE DIRECTORY
-```
+```sh
 $ rmdir dir3
 ```
 
 ### VIEW FILE STATISTICS
-```
+```sh
 $ stat test10
 ```
 
 ### VIEW FILE TYPE
-```
+```shsh
 $ file test1
 ```
 
 ### VIEW THE ENTIRE FIEL
-```
+```sh
 $ cat test1
 $ more test1(advantage)
 $ less test1(more advantage)
 ```
 
 ### VIEW SOME OF THE FILE
-```
+```sh
 $ tail 
 $ head
 ```
 
 ### VIEW PROCESS
-```
+```sh
 $ ps
 ```
 
 ### STOP PROCESS
-```
+```sh
 $ kill PID
 $ killall
 ```
 
 ### MOUNT MEDIA
-```
+```sh
 $ mount
 $ unmount
 ```
 
 ### VIEW DISK SPACE
-```
+```sh
 $ df
 ```
 
 ### VIEW FILE SIZE ON DISK
-```
+```sh
 $ du
 ```
 
 ### SORT DATA
-```
+```sh
 $ sort
 ```
 
 ### SEARCH DATA
-```
+```sh
 $ grep three file1
 ```
 
 ### COMPRESSED DATA
-```
+```sh
 $ bzip2 myprog
 $ gzip myprog
 $ zip -r testzip test
 ```
 
 ### ARCHIVE DATA
-```
+```sh
 $ tar -cvf test.tar test/ test2/
 ```
 
 ### GLOBAL ENVIRONMENT VARIABLES
-```
+```sh
 $ printenv
 ```
 
 ### ALL ENVIRONMENT VARIABLES
-```
+```sh
 $ set
 ```
 
 ### SET ENVIRONMENT VARIABLES
-```
+```sh
 $ test=testing
 $ echo $test
 ```
 
 ### SET GLOBAL ENVIRONMENT VARIABLES
-```
+```sh
 $ echo $test
 $ ecport test
 ```
 
 ### REMOVE ENVIRONMENT VARIABLES
-```
+```sh
 $ echo $test
 $ unset test
 ```
 
 ### DEFAULT ENVIRONMENT VARIABLES
-```
+```sh
 *CDPATH
 *HOME
 *IFS
@@ -239,7 +239,7 @@ $ unset test
 ### BASH SHELL ENVIRONMENT VARIABLES
 
 ### LOGIN SHELL
-```
+```sh
 */etc/profile;
 *$HOME/.bash_profile;
 *$HOME/.bash_login;
@@ -247,7 +247,7 @@ $ unset test
 ```
 
 ### VARIABLES GROUP
-```
+```sh
 $ mytest=(one two three four five)
 ```
 
