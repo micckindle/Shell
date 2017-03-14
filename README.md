@@ -4,24 +4,24 @@
 
 ### Linux kernel
 
-```
+
 - System memory management
 - Software program management
 - Hardware management
 - File system management
-```
+
 -------------------------------------
 ### Linux desktop environment
-```
+
 - X windows system
 - KDE desktop
 - GNOME desktop
 - other: fluxbox, xfree, fvwm, fvwm95
-```
+
 
 -------------------------------------
 ### Linux distributions
-```
+
 1. Slackware
 2. Red Hat
 3. Fedora
@@ -36,15 +36,15 @@
 12. PCLinuxOS
 13. dyne:bolie
 14. Puppy Linux
-```
+
 
 ### Shell(terminal)
-```
-1. terminfo database
-2. Xterm terminal
-3. Konsole terminal
-4. GNOME terminal
-```
+
+- terminfo database
+- Xterm terminal
+- Konsole terminal
+- GNOME terminal
+
 
 ### Bash shell command
 ```
